@@ -23,6 +23,11 @@ config :rocketpay, RocketpayWeb.Endpoint,
    migration_foreign_key: [type: :binary_id]
 
 
+   config :rocketpay, :basic_auth,
+   username: "banana",
+   password: "nanina123"
+
+
 
 # Configures Elixir's Logger
 config :logger, :console,
